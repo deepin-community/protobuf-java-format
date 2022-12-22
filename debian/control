@@ -1,0 +1,28 @@
+Source: protobuf-java-format
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper (>= 2.0)
+Build-Depends-Indep: libhamcrest-java,
+                     libjackson2-core-java,
+                     libjackson2-dataformat-smile,
+                     libmaven-antrun-plugin-java,
+                     libmockito-java,
+                     libprotobuf-java,
+                     protobuf-compiler,
+                     testng
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/protobuf-java-format.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/protobuf-java-format.git
+Homepage: https://github.com/bivas/protobuf-java-format
+
+Package: libprotobuf-java-format-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Library to serialize protobuf messages to XML, JSON and HTML
+ The protobuf-java-format library provide serialization and de-serialization
+ of different formats based on  Google's protobuf Message. Enables overriding
+ the default (byte array) output to text based formats such as XML, JSON
+ and HTML.

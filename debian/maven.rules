@@ -1,0 +1,6 @@
+
+org.testng testng jar s/6\..*/6.x/ * *
+com.fasterxml.jackson.core jackson-core * s/2\..*/2.x/ * *
+com.fasterxml.jackson.dataformat jackson-dataformat-smile * s/2\..*/2.x/ * *
+junit junit * s/4\..*/4.x/ * *
+org.mockito s/mockito-all/mockito-core/ * s/.*/debian/ * *

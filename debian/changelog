@@ -1,0 +1,22 @@
+protobuf-java-format (1.3-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:39:28 +0100
+
+protobuf-java-format (1.3-1) unstable; urgency=medium
+
+  * New upstream release
+    - Removed 01-protobuf-compatibility.patch (fixed upstream)
+    - New dependency on libjackson2-core-java
+    - Removed the dependency on libjackson-json-java
+    - New build dependency on libmockito-java
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 03 Aug 2016 23:30:15 +0200
+
+protobuf-java-format (1.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #825459)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 27 May 2016 08:57:45 +0200

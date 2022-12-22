@@ -1,0 +1,2 @@
+version=3
+https://github.com/bivas/protobuf-java-format/tags .*/archive/([\d\.]+).tar.gz
